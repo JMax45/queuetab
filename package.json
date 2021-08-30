@@ -1,0 +1,30 @@
+{
+	"name": "queuetab",
+	"version": "1.0.0",
+	"description": "Small module to execute tasks in a queue",
+	"main": "lib/index.js",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build"
+	},
+	"types": "lib/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JMax45/queuetab.git"
+	},
+	"keywords": [
+		"Queue"
+	],
+	"author": "JMax45",
+	"bugs": {
+		"url": "https://github.com/JMax45/queuetab/issues"
+	},
+	"homepage": "https://github.com/JMax45/queuetab#readme",
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^4.4.2"
+	},
+	"files": [
+		"lib"
+	]
+}

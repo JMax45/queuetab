@@ -27,7 +27,7 @@ npm install queuetab
 ### Usage
 
 ```js
-const QueueTab = require('queuetab');
+const QueueTab = require('queuetab').default;
 const queuetab = new QueueTab();
 
 // asyncFunc is an example function, use your actual function instead
